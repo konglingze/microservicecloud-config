@@ -47,7 +47,7 @@ info:
   build.version: $project.version$
 ---
 server:
-  port: 8005
+  port: 8001
 spring: 
   profile: test
   application: 
@@ -80,7 +80,7 @@ eureka:
       #defaultZone: http://localhost:7001/eureka
        defaultZone: http://eureka7001.edu:7001/eureka/,http://eureka7002.edu:7002/eureka/,http://eureka7003.edu:7003/eureka/      
   instance:
-    instance-id: microservicecloud-config-dept-client-test-8005   #实例别名
+    instance-id: microservicecloud-config-dept-client-test-8001   #实例别名
     prefer-ip-address: false     #访问路径可以显示IP地址(超链接提示)     
  
 info: 
