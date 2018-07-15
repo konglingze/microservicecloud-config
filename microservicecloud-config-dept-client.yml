@@ -1,13 +1,13 @@
 spring: 
-  profile: 
-  active: 
-  - dev
+  profiles: 
+    active: 
+    - dev
 
 ---
 server:
   port: 8001
 spring: 
-  profile: dev
+  profiles: dev
   application: 
    #name: microservicecloud-dept
    name: microservicecloud-config-dept-client
@@ -49,7 +49,7 @@ info:
 server:
   port: 8001
 spring: 
-  profile: test
+  profiles: test
   application: 
    #microservicecloud-config-dept-client-test-8005  
    #name: microservicecloud-dept
